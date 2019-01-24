@@ -4,7 +4,7 @@ pdf:
 	docker-compose run --rm review make
 
 lint:
-	docker-compose run --rm textlint npx textlint */*.re
+	docker-compose run --rm textlint make lint
 
 clean:
 	docker-compose run --rm review make clean
