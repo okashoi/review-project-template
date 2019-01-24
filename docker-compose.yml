@@ -6,7 +6,6 @@ services:
     volumes:
       - ./workdir:/workdir
   textlint:
-    image: node:11.7.0-alpine
-    working_dir: /workdir
+    build: ./services/textlint
     volumes:
-      - .:/workdir
+      - ./workdir:/workdir
