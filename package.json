@@ -1,0 +1,24 @@
+{
+  "name": "review-project-template",
+  "version": "1.0.0",
+  "description": "[Re:VIEW](https://reviewml.org/)による執筆環境のテンプレートです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okashoi/review-project-template.git"
+  },
+  "author": "okashoi<okashoicircus0@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okashoi/review-project-template/issues"
+  },
+  "homepage": "https://github.com/okashoi/review-project-template#readme",
+  "dependencies": {
+    "textlint": "^11.2.1",
+    "textlint-plugin-review": "^0.3.3",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.0"
+  }
+}
