@@ -22,7 +22,7 @@ make
 
 `workdir/` 直下に `book.pdf` という名前で生成されます。
 
-`book.pdf` は git の追跡対象から外されています。
+`book.pdf` は Git の追跡対象から外されています。
 
 ### textlint を実行する
 
@@ -36,7 +36,7 @@ make lint
 make clean
 ```
 
-実行すると `book.pdf` が削除されるので注意してください。
+実行すると `book.pdf` も削除されるので注意してください。
 
 ## トラブルシューティング
 
