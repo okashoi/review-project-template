@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/okashoi/review-project-template#readme",
   "dependencies": {
-    "textlint": "^11.2.1",
+    "textlint": "^13.3.2",
     "textlint-plugin-review": "^0.3.3",
     "textlint-rule-preset-ja-technical-writing": "^3.1.0"
   }
